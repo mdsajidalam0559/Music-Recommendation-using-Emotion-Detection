@@ -3,7 +3,7 @@ import streamlit as st
 
 lang=st.text_input("Language")
 
-captured_emotion= "happy"
+captured_emotion= "sad"
 
 if lang:
     # webrtc_streamer (key="key", desired_playing_state=True
